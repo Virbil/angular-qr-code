@@ -1,0 +1,33 @@
+html, body, .container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73A4FF;
+}
+
+.qr-code {
+  height: 660px;
+  background-color: #A8AAAA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #73A4FF;
+}

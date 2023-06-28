@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-qr-code';
+  public myAngularxQrCode: string;
+
+  constructor () {
+    this.myAngularxQrCode = 'https://github.com/Virbil/angular-qr-code';
+  }
 }
